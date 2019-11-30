@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy8-1</title>
+<style>
+form {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: aliceblue;
+	text-align: center;
+	width: 600px;
+	height: 600px;
+	background-color: #444444;
+}
+table {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 500px;
+	border-collapse: separate;
+	border-spacing: 5px 10px;
+}
+.c1 {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: 1px solid #FAF8F8;
+	width: 450px;
+}
+td {
+	text-align:left;
+	width: 70px;
+}
+.c {
+	width: 100px;
+}
+.c2 {
+	width: 80px;
+}
+	.c3{font-size: 25px;}
+[type="text"] {
+	width: 100px;
+}
+[type="text1"] {
+	width: 300px;
+}
+[type="text2"] {
+	width: 60px;
+}
+[type="checkbox"] {
+	width: 5px;
+}
+[type="radio"] {
+	width: 5px;
+}
+</style>
+</head>
+
+<body>
+<form>
+  <caption>
+  <a class="c3"> 增加快递信息</a>
+  </caption>
+  <fieldset class="c1">
+    <legend>发货单</legend>
+    <table>
+      <tr>
+        <td>发货人:</td>
+        <td><input type="text" name="1" placeholder=""></td>
+        <td>地 址:</td>
+        <td><input type="text" name="2" placeholder=""></td>
+      </tr>
+      <tr>
+        <td>电 话:</td>
+        <td><input type="text" name="3" placeholder=""></td>
+        <td>邮 编:</td>
+        <td><input type="text" name="4" placeholder=""></td>
+      </tr>
+    </table>
+  </fieldset><br>
+  <fieldset class="c1">
+    <legend>收货单</legend>
+    <table>
+      <tr>
+        <td>收货人:</td>
+        <td><input type="text" name="1" placeholder=""></td>
+        <td>地 址:</td>
+        <td><input type="text" name="2" placeholder=""></td>
+      </tr>
+      <tr>
+        <td>电 话:</td>
+        <td><input type="text" name="3" placeholder=""></td>
+        <td>邮 编:</td>
+        <td><input type="text" name="4" placeholder=""></td>
+      </tr>
+      <tr>
+        <td>地 区：</td>
+        <td><select class="c">
+            <option>北 京</option>
+            <option>杭 州</option>
+            <option>上 海</option>
+            <option>深 圳</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>包 装：</td>
+        <td><input type="checkbox" name="4" placeholder="" id="account">
+          <lable for="account">纸箱</lable></td>
+        <td><input type="checkbox" name="4" placeholder="" id="account">
+          <lable for="account">木箱</lable></td>
+        <td><input type="checkbox" name="4" placeholder="" id="account">
+          <lable for="account">快递袋</lable></td>
+        <td><input type="checkbox" name="4" placeholder="" id="account">
+          <lable for="account">其他</lable></td>
+      </tr>
+      <tr>
+        <td class="c2">支付方式：</td>
+        <td><input type="radio" name="4" placeholder="" id="account">
+          <lable for="account">现金</lable></td>
+        <td><input type="radio" name="4" placeholder="" id="account">
+          <lable for="account">支付宝</lable></td>
+        <td><input type="radio" name="4" placeholder="" id="account">
+          <lable for="account">网银</lable></td>
+        <td><input type="radio" name="4" placeholder="" id="account">
+          <lable for="account">ATM</lable></td>
+      </tr>
+    </table>
+  </fieldset>
+	<br>
+  <fieldset class="c1">
+    <legend>货物信息</legend>
+    <table>
+      <tr>
+        <td colspan="2">货物名称:</td>
+        <td colspan="4"><input type="text1" name="31" placeholder=""></td>
+      </tr>
+      <tr>
+        <td>数量:</td>
+        <td><input type="text2" name="32" placeholder=""></td>
+        <td>重量:</td>
+        <td><input type="text2" name="33" placeholder=""></td>
+        <td class="c2">发货时间:</td>
+        <td><input type="text" name="4" placeholder=""></td>
+      </tr>
+    </table>
+  </fieldset>
+  <table>
+    <tr>
+      <tb></tb>
+    </tr>
+    <br>
+    <tr>
+      <tb>
+        <input type="button" name="jjj" placeholder="" value= "确定">
+      </tb>
+      <tb>
+        <input type="button" name="" value="取消">
+      </tb>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
